@@ -1,0 +1,27 @@
+.header {
+    height: 200px;
+    background-color: #0d0d0d;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    &-logo {
+        gap: 12px;
+        display: flex;
+        align-items: center;
+        .img {
+            width: 22px;
+            height: 36px;
+            img {
+                width: 100%;
+                height: 100%;
+            }
+        }
+        h1 {
+            color: #4ea8de;
+            span {
+                color: #5360ce;
+            }
+        }
+        
+    }
+}
